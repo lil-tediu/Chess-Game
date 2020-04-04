@@ -1,4 +1,5 @@
 package Game;
+import Exceptions.NotValidSpotException;
 import Pieces.Knight;
 
 public class Board {
@@ -9,11 +10,11 @@ public class Board {
 	        this.resetBoard(); 
 	    } 
 	  
-	    public Spot getBox(int x, int y) 
+	    public Spot getBox(int x, int y) throws NotValidSpotException 
 	    { 
 	  
 	        if (x < 0 || x > 7 || y < 0 || y > 7) { 
-	            throw new Exception("Index out of bound"); 
+	            throw new NotValidSpotException("The x and y coordinates must be between 0 and 7"); 
 	        } 
 	  
 	        return boxes[x][y]; 
