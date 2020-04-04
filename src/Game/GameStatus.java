@@ -1,7 +1,7 @@
 package Game;
 
 public enum GameStatus {
-	   ACTIVE, 
+	    ACTIVE, 
 	    BLACK_WIN, 
 	    WHITE_WIN, 
 	    FORFEIT, 
