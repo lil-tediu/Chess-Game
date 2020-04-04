@@ -4,7 +4,6 @@ import java.util.List;
 
 import Exceptions.NotValidSpotException;
 import Pieces.King;
-import Pieces.Move;
 import Pieces.Piece;
 
 public class Game {

@@ -3,26 +3,13 @@ import Game.Board;
 import Game.Spot;
 
 public class King extends Piece {
-	private boolean castlingDone = false; 
-	  
-    public King(boolean white) 
-    { 
+    public King(boolean white) { 
         super(white); 
     } 
   
-    public boolean isCastlingDone() 
-    { 
-        return this.castlingDone == true; 
-    } 
-  
-    public void setCastlingDone(boolean castlingDone) 
-    { 
-        this.castlingDone = castlingDone; 
-    } 
   
     @Override
-    public boolean canMove(Board board, Spot start, Spot end) 
-    { 
+    public boolean canMove(Board board, Spot start, Spot end)    { 
         // we can't move the piece to a Spot that  
         // has a piece of the same color 
         if (end.getPiece().isWhite() == this.isWhite()) { 

@@ -1,6 +1,5 @@
-package Pieces;
-import Game.Player;
-import Game.Spot;
+package Game;
+import Pieces.Piece;
 
 public class Move {
 	 private Player player; 

@@ -1,15 +1,14 @@
 package Game;
 
 public class Player {
-	 public boolean whiteSide; 
+		public boolean whiteSide; 
 	    public boolean humanPlayer; 
 	  
-	    public boolean isWhiteSide() 
-	    { 
+	    public boolean isWhiteSide() { 
 	        return this.whiteSide == true; 
 	    } 
-	    public boolean isHumanPlayer() 
-	    { 
+	    
+	    public boolean isHumanPlayer() { 
 	        return this.humanPlayer == true; 
 	    } 
 } 
