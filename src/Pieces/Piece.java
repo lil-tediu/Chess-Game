@@ -1,3 +1,6 @@
+package Pieces;
+import Game.Board;
+import Game.Spot;
 
 public abstract class Piece {
 	 private boolean killed = false; 

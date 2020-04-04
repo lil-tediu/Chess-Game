@@ -1,3 +1,5 @@
+package Game;
+import Pieces.Piece;
 
 public class Spot {
 	private Piece piece; 

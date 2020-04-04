@@ -1,3 +1,6 @@
+package Pieces;
+import Game.Board;
+import Game.Spot;
 
 public class Knight extends Piece {
 	 public Knight(boolean white) 

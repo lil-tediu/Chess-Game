@@ -1,3 +1,5 @@
+package Game;
+import Pieces.Knight;
 
 public class Board {
 	 Spot[][] boxes; 

@@ -1,3 +1,6 @@
+package Pieces;
+import Game.Player;
+import Game.Spot;
 
 public class Move {
 	 private Player player; 

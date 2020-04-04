@@ -1,3 +1,6 @@
+package Pieces;
+import Game.Board;
+import Game.Spot;
 
 public class King extends Piece {
 	private boolean castlingDone = false; 
